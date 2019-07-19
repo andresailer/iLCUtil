@@ -17,25 +17,25 @@ namespace streamlog{
 
   logstream::~logstream() {
     
-    if( _ns ){ 
-        delete _ns ;
-        _ns = NULL ;
-    }
+    // if( _ns ){ 
+    //     delete _ns ;
+    //     _ns = NULL ;
+    // }
     
-    if( _os ){ 
-      delete _os ;
-      _os = NULL ;
-    }
+    // if( _os ){ 
+    //   delete _os ;
+    //   _os = NULL ;
+    // }
     
-    if( _lb ){
-      delete _lb ;
-      _lb = NULL ;
-    }
+    // if( _lb ){
+    //   delete _lb ;
+    //   _lb = NULL ;
+    // }
     
-    if( _prefix ){
-      delete _prefix ;
-      _prefix = NULL ; 
-    }
+    // if( _prefix ){
+    //   delete _prefix ;
+    //   _prefix = NULL ; 
+    // }
   }
   
   void logstream::init( std::ostream& os , const std::string name ) {
